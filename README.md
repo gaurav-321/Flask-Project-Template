@@ -26,15 +26,24 @@ Copy code
   - │   └── index.html
  - └── requirements.txt
 ***app.py***: This is the main script that runs the Flask app. It includes the app configuration and routes.
+ 
 ***models.py***: This file contains the database models for the app.
+ 
 ***routes.py***: This file contains the app routes and associated functions.
+ 
 ***static/***: This directory contains static assets such as images, CSS, and JavaScript files.
+ 
 ***templates/***: This directory contains the HTML templates for the app.
+ 
 ***requirements.txt***: This file lists the required packages for the app.
+ 
 ## Configuration
 The app can be configured by modifying the following variables in app.py:
 
 ***SQLALCHEMY_DATABASE_URI***: This is the URI for the database connection.
+ 
 ***SECRET_KEY***: This is the secret key used for encrypting user sessions.
+ 
 ***UPLOAD_FOLDER***: This is the directory where uploaded files will be stored.
+ 
 ***ALLOWED_EXTENSIONS***: This is a list of allowed file extensions for uploaded files.
