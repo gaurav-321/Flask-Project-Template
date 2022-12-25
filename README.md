@@ -16,15 +16,15 @@ To get started with this template, follow these steps:
 The project has the following file structure:
 
 Copy code
--flask-template/
- -├── app.py
- -├── models.py
- -├── routes.py
- -├── static/
-  -│   └── uploads/
- -├── templates/
-  -│   └── index.html
- -└── requirements.txt
+- flask-template/
+ - ├── app.py
+ - ├── models.py
+ - ├── routes.py
+ - ├── static/
+  - │   └── uploads/
+ - ├── templates/
+  - │   └── index.html
+ - └── requirements.txt
 ***app.py***: This is the main script that runs the Flask app. It includes the app configuration and routes.
 ***models.py***: This file contains the database models for the app.
 ***routes.py***: This file contains the app routes and associated functions.
