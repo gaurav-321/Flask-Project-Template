@@ -1,16 +1,16 @@
 # 🌐 Flask Project Template
 
-✨ **Description:**  
+## ✨ Description:
 This project provides a comprehensive template for building a web application using Flask. It includes features like user authentication, file uploads, form handling, and database integration with SQLAlchemy. The template is designed to be easily customizable and extendable.
 
-🚀 **Features:**
+## 🚀 Features:
 - User Authentication
 - File Uploads
 - Form Handling (Registration, Login, Complaint Submission)
 - Database Integration with SQLAlchemy
 - Secure Session Management
 
-🛠️ **Installation:**  
+## 🛠️ Installation:
 To get started, clone the repository and install the dependencies:
 
 ```bash
@@ -19,7 +19,7 @@ cd Flask-Project-Template
 pip install -r requirements.txt
 ```
 
-📦 **Usage:**  
+## 📦 Usage:
 Run the application using the following command:
 
 ```bash
@@ -28,20 +28,20 @@ python app.py
 
 The server will start on `http://127.0.0.1:8080`. Open your browser and navigate to this URL to interact with the web application.
 
-🔧 **Configuration:**  
+## 🔧 Configuration:
 You can configure the project by modifying the environment variables or directly editing the configuration files. Key configurations include:
 
 - `UPLOAD_FOLDER`: Directory for storing uploaded files.
 - Database URI in `app.py` (e.g., SQLite, PostgreSQL).
 
-🧪 **Tests:**  
+## 🧪 Tests:
 To run tests, use the following command:
 
 ```bash
 python -m unittest discover tests/
 ```
 
-📁 **Project Structure:**
+## 📁 Project Structure:
 
 ```
 Flask-Project-Template/
@@ -53,10 +53,10 @@ Flask-Project-Template/
 └── routes.py
 ```
 
-🙌 **Contributing:**  
+## 🙌 Contributing:
 We welcome contributions! Please follow the [contributing guidelines](CONTRIBUTING.md) for more information.
 
-📄 **License:**  
+## 📄 License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
